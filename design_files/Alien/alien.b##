@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzY4MzUz" projecturn="a.cGVyc29uYWw6dWUyYzY4MzUzI0QyMDE5MDQwMzE4NjEyNjk4MQ" f3durn="urn:adsk.wipprod:dm.lineage:zyGNaZnlTEKXAFKFNzU47w" pcbguid="6b039789-e3a7-408c-8b21-c5d271b834b3" lastpulledtime="" lastsyncedchangeguid="089f73a4-3f89-014c-00c7-02fa9fe64186"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzY4MzUz" projecturn="a.cGVyc29uYWw6dWUyYzY4MzUzI0QyMDE5MDQwMzE4NjEyNjk4MQ" f3durn="urn:adsk.wipprod:dm.lineage:zyGNaZnlTEKXAFKFNzU47w" pcbguid="6b039789-e3a7-408c-8b21-c5d271b834b3" lastpulledtime="" lastsyncedchangeguid="be1b00da-d831-89f2-f271-e0e98acd5a8a"/>
 <plain>
 <wire x1="10.381759375" y1="0.067796875" x2="10.31265625" y2="0.073190625" width="0.1" layer="20"/>
 <wire x1="10.31265625" y1="0.073190625" x2="10.2451125" y2="0.088878125" width="0.1" layer="20"/>
@@ -2412,7 +2412,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="17.973" y="18.3016" size="0.08381875" layer="28" font="vector" rot="MR0" display="off"/>
 <attribute name="VALUE" x="18.608" y="16.3966" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="VBAT" library="SamacSys_Parts" package="BATHLD012SMT" override_package3d_urn="urn:adsk.eagle:package:15679619/3" override_package_urn="urn:adsk.eagle:footprint:15679620/1" override_locally_modified="yes" value="BAT-HLD-012-SMT" x="10.35" y="14.4386" smashed="yes" rot="MR0">
+<element name="VBAT" library="SamacSys_Parts" package="BATHLD012SMT" value="BAT-HLD-012-SMT" x="10.35" y="14.4386" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Coin Cell Battery Holders Bat Hld CR1216/1225 Surface Mount" x="10.35" y="14.4386" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="3mm" x="10.35" y="14.4386" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Linx Technologies" x="10.35" y="14.4386" size="1.778" layer="28" rot="MR0" display="off"/>
