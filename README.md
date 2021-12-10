@@ -1,6 +1,8 @@
 # Earrings
 Light up earring art.
 
+![Check out the project website here](https://funkonaut.github.io/project_doc/)
+
 # Design Files
 .brd and .sch files availble for EAGLE CAD. 
 
