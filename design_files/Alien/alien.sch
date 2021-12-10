@@ -6843,9 +6843,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BAT-HLD-012-S
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="VBAT" library="SamacSys_Parts" deviceset="BAT-HLD-012-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:15679619/3" override_package_urn="urn:adsk.eagle:footprint:15679620/1" override_locally_modified="yes"/>
+<part name="VBAT" library="SamacSys_Parts" deviceset="BAT-HLD-012-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:32568245/2" override_package_urn="urn:adsk.eagle:footprint:32568246/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="electroninks" deviceset="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" device="" override_package3d_urn="urn:adsk.eagle:package:15679591/3" override_package_urn="urn:adsk.eagle:footprint:15679592/1"/>
+<part name="U$1" library="electroninks" deviceset="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" device="" override_package3d_urn="urn:adsk.eagle:package:32568086/3" override_package_urn="urn:adsk.eagle:footprint:32568087/1"/>
 </parts>
 <sheets>
 <sheet>

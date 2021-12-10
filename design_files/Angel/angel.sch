@@ -6843,9 +6843,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BAT-HLD-012-S
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="VBAT" library="SamacSys_Parts" deviceset="BAT-HLD-012-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:15679619/3" override_package_urn="urn:adsk.eagle:footprint:15679620/1" override_locally_modified="yes"/>
+<part name="VBAT" library="SamacSys_Parts" deviceset="BAT-HLD-012-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:32575048/5" override_package_urn="urn:adsk.eagle:footprint:32575049/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="electroninks" deviceset="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" device="" override_package3d_urn="urn:adsk.eagle:package:15679591/3" override_package_urn="urn:adsk.eagle:footprint:15679592/1"/>
+<part name="U$1" library="electroninks" deviceset="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" device="" override_package3d_urn="urn:adsk.eagle:package:32575056/3" override_package_urn="urn:adsk.eagle:footprint:32575057/1"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
@@ -6955,7 +6955,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BAT-HLD-012-S
 <wire x1="86.36" y1="-5.08" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
 <label x="71.12" y="-5.08" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="86.36" y1="-7.62" x2="86.36" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-33.02" x2="86.36" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="86.36" y="-7.62"/>
 </segment>
 <segment>
@@ -6981,18 +6981,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BAT-HLD-012-S
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="81.28" y1="-7.62" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
-<label x="71.12" y="-7.62" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="81.28" y1="-33.02" x2="81.28" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="81.28" y="-7.62"/>
+<label x="71.12" y="7.62" size="1.778" layer="95"/>
+<pinref part="VBAT" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="5.08" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VBAT" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="2.54" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
-<label x="71.12" y="7.62" size="1.778" layer="95"/>
+<wire x1="91.44" y1="-7.62" x2="91.44" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$6"/>
+<label x="91.44" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="91.44" y1="-33.02" x2="91.44" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="91.44" y="-7.62"/>
 </segment>
 </net>
 <net name="N$1" class="0">

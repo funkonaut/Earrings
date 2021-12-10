@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.0999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGJiODU3" projecturn="a.cGVyc29uYWw6dWUyZGJiODU3IzIwMTkwMTE2MTcwNjgyOTI2" f3durn="urn:adsk.wipprod:dm.lineage:OdxcjZ_0S0ezXZBnbosQ5Q" pcbguid="11cdee58-e33f-4866-a309-80e6dbda0822" lastpulledtime="" lastsyncedchangeguid="4214f7c0-6f33-dc19-8cf7-ab24378442ec"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzY4MzUz" projecturn="a.cGVyc29uYWw6dWUyYzY4MzUzI0QyMDE5MDQwMzE4NjEyNjk4MQ" f3durn="urn:adsk.wipprod:dm.lineage:VPmSnAdLQfGqMDIWLTXgpg" pcbguid="d5d3fe3d-d1bc-43b6-b4b8-5aa695b34219" lastpulledtime="" lastsyncedchangeguid="94bf7ccc-8d0d-05bc-43fa-d465ada9e75e"/>
 <plain>
 <wire x1="1.225315625" y1="11.23725" x2="1.22874375" y2="11.51538125" width="0.1" layer="20"/>
 <wire x1="1.22874375" y1="11.51538125" x2="1.239053125" y2="11.793340625" width="0.1" layer="20"/>
@@ -3427,6 +3427,8 @@
 <wire x1="23.581665625" y1="22.26048125" x2="23.5137125" y2="22.246846875" width="0.1" layer="49"/>
 <wire x1="23.5137125" y1="22.246846875" x2="23.4483125" y2="22.22378125" width="0.1" layer="49"/>
 <hole x="12.4328" y="20.62" drill="2"/>
+<dimension x1="-0.1778" y1="0" x2="-0.1778" y2="23.8016" x3="-1.1" y3="11.9008" textsize="1.778" layer="1"/>
+<dimension x1="25.8222" y1="0" x2="-0.1778" y2="0" x3="12.8222" y3="-0.1" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -4778,7 +4780,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="20.3606" y="16.5473" size="0.08381875" layer="28" font="vector" rot="MR0" display="off"/>
 <attribute name="VALUE" x="20.9956" y="14.6423" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="VBAT" library="SamacSys_Parts" package="BATHLD012SMT" override_package3d_urn="urn:adsk.eagle:package:15679619/3" override_package_urn="urn:adsk.eagle:footprint:15679620/1" override_locally_modified="yes" value="BAT-HLD-012-SMT" x="12.4328" y="12.7478" smashed="yes" rot="MR0">
+<element name="VBAT" library="SamacSys_Parts" package="BATHLD012SMT" override_package3d_urn="urn:adsk.eagle:package:32568294/2" override_package_urn="urn:adsk.eagle:footprint:32568295/1" value="BAT-HLD-012-SMT" x="12.4328" y="12.7478" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Coin Cell Battery Holders Bat Hld CR1216/1225 Surface Mount" x="12.4328" y="12.7478" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="3mm" x="12.4328" y="12.7478" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Linx Technologies" x="12.4328" y="12.7478" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4786,7 +4788,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PART_NUMBER" value="712-BAT-HLD-012-SMT" x="12.4328" y="12.7478" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=712-BAT-HLD-012-SMT" x="12.4328" y="12.7478" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$1" library="electroninks" package="CL-SB-22A-02T-DPDT-COMPACT-SWITCH" value="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" x="12.4328" y="3.691" smashed="yes" rot="MR0"/>
+<element name="U$1" library="electroninks" package="CL-SB-22A-02T-DPDT-COMPACT-SWITCH" override_package3d_urn="urn:adsk.eagle:package:32569019/2" override_package_urn="urn:adsk.eagle:footprint:32569020/1" value="CL-SB-22A-02T-SLIDE-SWITCH-TUCKED-PADS" x="12.4328" y="3.691" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -4813,13 +4815,11 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="VBAT" pad="P$1"/>
 <polygon width="0.5" layer="16">
-<vertex x="-0.1778" y="25.1016"/>
-<vertex x="25.8222" y="25.1016"/>
+<vertex x="-0.1778" y="23.8016"/>
+<vertex x="25.8222" y="23.8016"/>
 <vertex x="25.8222" y="0"/>
 <vertex x="-0.1778" y="0"/>
 </polygon>
-<wire x1="12.4328" y1="12.7478" x2="19.5106" y2="16.5473" width="0" layer="19" extent="16-16"/>
-<wire x1="5.5026" y1="16.5473" x2="12.4328" y2="12.7478" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VCC">
 <contactref element="LED1" pad="A"/>

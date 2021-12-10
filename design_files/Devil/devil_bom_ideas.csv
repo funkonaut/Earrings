@@ -1,0 +1,14 @@
+Part,Value,Package,Notes,Cost,URL
+LED1,Pink,0603,LED,0.03,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+LED2,Red,0603,LED,0.02,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+LED3,Green,0603,LED,0.03,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+LED4,Pink,0805,LED,0.03,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+LED5,Red,0805,LED,0.02,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+LED6,Green,0805,LED,0.03,https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1608GA5/5142399
+Resistors,1k-10k,R0603,Cheap 5% tolerance I have so many of these let just use what I got and check the brightness,0,
+Switch1,SPDT,CL-SB-22A-12T ,SPDT side switch smd,1.26,https://www.digikey.com/en/products/detail/nidec-copal-electronics/CL-SB-22A-12T/3507830
+Switch2,SPDT,PCM12-SMTR,SPDT side switch smd,0.90,https://www.mouser.com/ProductDetail/CK-Switches/PCM12SMTR?qs=mfFuH…
+VBAT1,cr1216 holder,BATHLD012SMT,Coin Cell Battery Holders Bat Hld CR1216/1225 Surface Mount,0.29,https://www.digikey.com/en/products/detail/linx-technologies-inc/BAT-HLD-012-SMT/3044013
+VBAT2,Cr2032 holder,BAT-HLD-001,Coin Cell Battery Holders Bat Hld CR2032 Surface Mount,0.32,https://www.mouser.com/ProductDetail/Linx-Technologies/BAT-HLD-001?qs=sGAEpiMZZMt46bMQRT2SLmFPbCCWipGu7%2FweuA9T6LA%3D
+BAT1,3.3V,CR1216,LiPo coin cell battery 12.5mm x 1.6mm,0.33,https://www.digikey.com/en/products/detail/tianqiu/CR1216/14565062
+BAT2,3.3V,CR2032,Have some of these laying around,0,
