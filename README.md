@@ -17,6 +17,6 @@ You can find a prefab checklist and some notes on design rules/process in the .c
 
 There is also a project write up that goes into detail on the design, assembly, and marketing/sales processes that went into this project.
 
- 
+ :white_check_mark:
 
 
